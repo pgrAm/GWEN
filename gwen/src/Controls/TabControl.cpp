@@ -149,7 +149,7 @@ void TabControl::OnLoseTab( TabButton* pButton )
 	Invalidate();
 }
 
-int TabControl::TabCount( void )
+size_t TabControl::TabCount(void)
 {
 	return m_TabStrip->NumChildren();
 }

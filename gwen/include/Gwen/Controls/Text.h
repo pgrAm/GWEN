@@ -35,14 +35,14 @@ namespace Gwen
 
 				const TextObject & GetText() const { return m_String; }
 
-				Gwen::Rect GetCharacterPosition( int iChar );
-				int GetClosestCharacter( Gwen::Point p );
+				Gwen::Rect GetCharacterPosition(unsigned int iChar);
+				size_t GetClosestCharacter(Gwen::Point p);
 
 				/// return the encapsulating box of the given line
 				// @remark this function is necessary to implement multiline selection
-				virtual Gwen::Rect GetLineBox( int i ); 
+				virtual Gwen::Rect GetLineBox(size_t i);
 
-				int Length() const { return ( int ) m_String.GetUnicode().size(); }
+				size_t Length() const { return (int)m_String.GetUnicode().size(); }
 
 				virtual void SetTextColor( const Gwen::Color & col ) { m_Color = col; }
 				virtual void SetTextColorOverride( const Gwen::Color & col ) { m_ColorOverride = col; }
@@ -55,12 +55,12 @@ namespace Gwen
 				virtual bool Wrap() { return m_bWrap; }
 				virtual void SetWrap( bool b ) { if ( m_bWrap == b ) { return; } m_bWrap = b; m_bTextChanged = true; Invalidate(); }
 
-				virtual Text* GetLine( int i );
-				virtual int GetLineFromChar( int i );
-				virtual int GetStartCharFromLine( int i );
-				virtual int GetEndCharFromLine( int i );
-				virtual int GetCharPosOnLine( int i );
-				virtual int NumLines();
+				virtual Text* GetLine(size_t i);
+				virtual size_t GetLineFromChar(size_t i);
+				virtual size_t GetStartCharFromLine(size_t i);
+				virtual size_t GetEndCharFromLine(size_t i);
+				virtual size_t GetCharPosOnLine(size_t i);
+				virtual size_t NumLines();
 
 
 			protected:

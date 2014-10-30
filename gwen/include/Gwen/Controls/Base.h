@@ -74,7 +74,7 @@ namespace Gwen
 
 				virtual Base::List & GetChildren() { if ( m_InnerPanel ) { return m_InnerPanel->GetChildren(); } return Children; }
 				virtual bool IsChild( Controls::Base* pChild );
-				virtual unsigned int NumChildren();
+				virtual size_t NumChildren();
 				virtual Controls::Base* GetChild( unsigned int i );
 				virtual bool SizeToChildren( bool w = true, bool h = true );
 				virtual Gwen::Point ChildrenSize();

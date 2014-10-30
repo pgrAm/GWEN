@@ -69,7 +69,7 @@ void Label::SizeToContents()
 	SetSize( m_Text->Width() + m_Padding.left + m_Padding.right, m_Text->Height() + m_Padding.top + m_Padding.bottom );
 }
 
-Gwen::Rect Label::GetCharacterPosition( int iChar )
+Gwen::Rect Label::GetCharacterPosition(unsigned int iChar)
 {
 	Gwen::Rect p = m_Text->GetCharacterPosition( iChar );
 	p.x += m_Text->X();

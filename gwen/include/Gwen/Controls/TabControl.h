@@ -35,7 +35,7 @@ namespace Gwen
 				virtual void OnTabPressed( Controls::Base* control );
 				virtual void OnLoseTab( TabButton* pButton );
 
-				virtual int TabCount( void );
+				virtual size_t TabCount(void);
 				virtual TabButton* GetTab( int iNum );
 				virtual TabButton* GetCurrentButton() { return m_pCurrentButton; }
 				virtual TabStrip* GetTabStrip() { return m_TabStrip; }

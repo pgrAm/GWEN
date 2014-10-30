@@ -315,7 +315,7 @@ void Base::RemoveAllChildren()
 	}
 }
 
-unsigned int Base::NumChildren()
+size_t Base::NumChildren()
 {
 	// Include m_InnerPanel's children here?
 	return Children.size();

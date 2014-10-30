@@ -33,7 +33,7 @@ namespace Gwen
 				virtual bool OnChar( Gwen::UnicodeChar c );
 
 				virtual void InsertText( const Gwen::UnicodeString & str );
-				virtual void DeleteText( int iStartPos, int iLength );
+				virtual void DeleteText(size_t iStartPos, size_t iLength);
 
 				virtual void RefreshCursorBounds();
 
@@ -58,8 +58,8 @@ namespace Gwen
 				virtual bool HasSelection();
 				virtual UnicodeString GetSelection();
 
-				virtual void SetCursorPos( int i );
-				virtual void SetCursorEnd( int i );
+				virtual void SetCursorPos(size_t i);
+				virtual void SetCursorEnd(size_t i);
 
 				virtual void OnMouseClickLeft( int x, int y, bool bDown );
 				virtual void OnMouseMoved( int x, int y, int deltaX, int deltaY );
@@ -83,14 +83,14 @@ namespace Gwen
 			protected:
 
 				virtual void OnTextChanged();
-				virtual bool IsTextAllowed( const Gwen::UnicodeString & /*str*/, int /*iPos*/ ) { return true; }
+				virtual bool IsTextAllowed( const Gwen::UnicodeString & /*str*/, size_t /*iPos*/ ) { return true; }
 
                 bool m_bEditable;
 				bool m_bSelectAll;
 
-				int m_iCursorPos;
-				int m_iCursorEnd;
-				int m_iCursorLine;
+				size_t m_iCursorPos;
+				size_t m_iCursorEnd;
+				size_t m_iCursorLine;
 
 				Gwen::Rect m_rectSelectionBounds;
 				Gwen::Rect m_rectCaretBounds;
@@ -128,7 +128,7 @@ namespace Gwen
 				virtual bool OnKeyUp( bool bDown );
 				virtual bool OnKeyDown( bool bDown );
 
-				virtual int GetCurrentLine();
+				virtual size_t GetCurrentLine();
 
 			protected:
 
