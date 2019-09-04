@@ -2,10 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Samples">
-      <UniqueIdentifier>{31FF00A1-9AC4-E84C-9A58-9152A8795B68}</UniqueIdentifier>
+      <UniqueIdentifier>{26387B1E-910C-C047-A4C2-42A694EC8644}</UniqueIdentifier>
     </Filter>
     <Filter Include="Samples\Allegro">
-      <UniqueIdentifier>{79E86F5E-A5FF-A649-A445-7387C19CF32A}</UniqueIdentifier>
+      <UniqueIdentifier>{3B7C93E3-F4AF-BB4D-AEB3-229BC0F59B5D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

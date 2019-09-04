@@ -2,10 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Renderers">
-      <UniqueIdentifier>{A9F5AB27-2571-0C4F-8DED-5F48B8987120}</UniqueIdentifier>
+      <UniqueIdentifier>{CAA6DA3E-0F5F-0746-A29C-81A751117257}</UniqueIdentifier>
     </Filter>
     <Filter Include="Renderers\Allegro">
-      <UniqueIdentifier>{71BD32EC-06DA-044B-803F-1B2AED480B0B}</UniqueIdentifier>
+      <UniqueIdentifier>{223CCBAD-5895-9946-BBC2-A31C4DAA9454}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

@@ -2,10 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Samples">
-      <UniqueIdentifier>{66CF765A-8B0F-C54F-A6DF-55CDD8971E97}</UniqueIdentifier>
+      <UniqueIdentifier>{B8A6FCCE-9F0E-F74F-9581-32D7546BC973}</UniqueIdentifier>
     </Filter>
     <Filter Include="Samples\CrossPlatform">
-      <UniqueIdentifier>{627D5D79-9693-1843-B83A-7B2026B8AA3D}</UniqueIdentifier>
+      <UniqueIdentifier>{D181C777-B7CB-C94D-90F1-9A82D8C8170F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

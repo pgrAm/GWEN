@@ -2,10 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Samples">
-      <UniqueIdentifier>{27C46399-DE6E-4C42-B10B-BF03B26E3077}</UniqueIdentifier>
+      <UniqueIdentifier>{F5D6C1D4-AF1B-B047-924A-58DC0A82AA06}</UniqueIdentifier>
     </Filter>
     <Filter Include="Samples\WindowsGDI">
-      <UniqueIdentifier>{AD726BC6-BE81-654C-B78C-22BE62D27D72}</UniqueIdentifier>
+      <UniqueIdentifier>{3CF2ABDF-23A2-5943-909A-55A040846763}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

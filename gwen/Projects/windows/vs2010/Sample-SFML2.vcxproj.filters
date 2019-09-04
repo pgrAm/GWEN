@@ -2,10 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Samples">
-      <UniqueIdentifier>{244619CE-9D8B-E046-B724-F33E65A380B1}</UniqueIdentifier>
+      <UniqueIdentifier>{9CEF82AC-88C3-A54F-AD60-E2FF312A7CC6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Samples\SFML2">
-      <UniqueIdentifier>{B33E7F41-914D-8B45-BD4C-92745A0A0FD9}</UniqueIdentifier>
+      <UniqueIdentifier>{E5953699-F118-AE43-AFF1-DF7729453FF4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

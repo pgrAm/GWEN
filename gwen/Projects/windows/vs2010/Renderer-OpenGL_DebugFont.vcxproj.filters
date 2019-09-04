@@ -2,13 +2,13 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Renderers">
-      <UniqueIdentifier>{BCE9667D-A5CB-E34D-8A9E-89B61FB4FF9C}</UniqueIdentifier>
+      <UniqueIdentifier>{D7C39751-6FC3-EB49-95B7-E5D324554182}</UniqueIdentifier>
     </Filter>
     <Filter Include="Renderers\OpenGL">
-      <UniqueIdentifier>{07DF3A95-06B0-9F46-A83C-0A169F0B130A}</UniqueIdentifier>
+      <UniqueIdentifier>{26B51C90-EEBF-9341-9556-26CED71D28E3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Renderers\OpenGL\DebugFont">
-      <UniqueIdentifier>{8DAA276C-E879-E542-BBBB-3424112323A5}</UniqueIdentifier>
+      <UniqueIdentifier>{5CF87422-F61B-814F-AE32-EDA215C94403}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

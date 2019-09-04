@@ -2,10 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Renderers">
-      <UniqueIdentifier>{6617290F-48E6-1448-9A98-1780EA4D03E8}</UniqueIdentifier>
+      <UniqueIdentifier>{488A3E28-343C-E545-83E1-8CDABD24D733}</UniqueIdentifier>
     </Filter>
     <Filter Include="Renderers\GDIPlus">
-      <UniqueIdentifier>{43F62C22-45D7-AF46-8B7D-16B67681D8BF}</UniqueIdentifier>
+      <UniqueIdentifier>{4768C51C-452E-8645-BA98-CE39791C3076}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

@@ -2,10 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Samples">
-      <UniqueIdentifier>{F34A9D9F-C3D2-074A-8583-311051FC851F}</UniqueIdentifier>
+      <UniqueIdentifier>{3EBF9A13-9379-2448-895E-59C7436CF1D2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Samples\OpenGL">
-      <UniqueIdentifier>{A84FD157-833A-2B42-94C9-CAEE2C5E55A5}</UniqueIdentifier>
+      <UniqueIdentifier>{3884D0BE-3971-1943-A711-AEA9BCF16239}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

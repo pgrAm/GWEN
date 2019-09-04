@@ -2,10 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Renderers">
-      <UniqueIdentifier>{64C78545-9344-0549-89FB-E0D525ED4BA3}</UniqueIdentifier>
+      <UniqueIdentifier>{90F6778A-157B-3549-8A99-1F0F17F39D6D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Renderers\OpenGL">
-      <UniqueIdentifier>{D2902837-D4BD-F244-BF34-887D66A78769}</UniqueIdentifier>
+      <UniqueIdentifier>{F6538E3F-0CA6-2041-9FF1-A8B4703283AB}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

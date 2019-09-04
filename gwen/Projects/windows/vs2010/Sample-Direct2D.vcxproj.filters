@@ -2,10 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Samples">
-      <UniqueIdentifier>{4B2A98D6-909B-0F40-B3B1-6E03FB5D4EFB}</UniqueIdentifier>
+      <UniqueIdentifier>{AA616105-E8AA-AB41-BEDB-27289DEC69EE}</UniqueIdentifier>
     </Filter>
     <Filter Include="Samples\Direct2D">
-      <UniqueIdentifier>{1CC6527D-F255-DC46-83D8-DEB9CF378A9A}</UniqueIdentifier>
+      <UniqueIdentifier>{69F025AA-0321-E140-B7B2-7D5913B661BA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

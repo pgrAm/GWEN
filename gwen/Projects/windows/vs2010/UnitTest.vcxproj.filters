@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="UnitTest">
-      <UniqueIdentifier>{7588B5C8-22EC-054B-9F12-278F4285D890}</UniqueIdentifier>
+      <UniqueIdentifier>{85062D95-AF1A-9048-8ED0-1BBEE23AD4DB}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

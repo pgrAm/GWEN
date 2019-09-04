@@ -2,10 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Renderers">
-      <UniqueIdentifier>{C20B3546-7FFE-2844-A22C-40C28F6AF847}</UniqueIdentifier>
+      <UniqueIdentifier>{25A8A41B-2642-774E-8CF7-80823111FF46}</UniqueIdentifier>
     </Filter>
     <Filter Include="Renderers\SFML2">
-      <UniqueIdentifier>{766384C6-9A74-7A44-BA44-9F5D7E5552E8}</UniqueIdentifier>
+      <UniqueIdentifier>{7B9D30AA-2C41-6346-976B-999B76F2D708}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

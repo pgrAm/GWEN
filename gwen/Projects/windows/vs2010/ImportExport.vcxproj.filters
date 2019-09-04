@@ -2,10 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Util">
-      <UniqueIdentifier>{48A60CE5-9391-8447-9770-19D608808076}</UniqueIdentifier>
+      <UniqueIdentifier>{9869C305-BA59-E245-ACCF-7A8AB0E09A3C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Util\ImportExport">
-      <UniqueIdentifier>{0C76F934-11B4-6744-B340-3CE4431F08A3}</UniqueIdentifier>
+      <UniqueIdentifier>{B5BBFA24-B8FB-8547-A25F-79F9DF015CB8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
