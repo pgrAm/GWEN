@@ -85,7 +85,7 @@ void Text::Render( Skin::Base* skin )
 	skin->GetRender()->RenderText( GetFont(), Gwen::Point( GetPadding().left, GetPadding().top ), m_String.GetUnicode() );
 }
 
-Gwen::Rect Text::GetCharacterPosition( int iChar )
+Gwen::Rect Text::GetCharacterPosition(size_t iChar )
 {
 	if ( !m_Lines.empty() )
 	{
@@ -126,7 +126,7 @@ Gwen::Rect Text::GetCharacterPosition( int iChar )
 	return Rect( p.x, 0, 0, p.y );
 }
 
-Gwen::Rect Text::GetLineBox( int i )
+Gwen::Rect Text::GetLineBox(size_t i )
 {
 	Text* line = GetLine(i);
 	if(line != NULL)
@@ -142,7 +142,7 @@ Gwen::Rect Text::GetLineBox( int i )
 }
  
 
-int Text::GetClosestCharacter( Gwen::Point p )
+size_t Text::GetClosestCharacter( Gwen::Point p )
 {
 	if ( !m_Lines.empty() )
 	{
@@ -354,12 +354,12 @@ void Text::RefreshSizeWrap()
 	Invalidate();
 }
 
-int Text::NumLines()
+size_t Text::NumLines()
 {
 	return m_Lines.size();
 }
 
-Text* Text::GetLine( int i )
+Text* Text::GetLine(size_t i )
 {
 	TextLines::iterator it = m_Lines.begin();
 	TextLines::iterator itEnd = m_Lines.end();
@@ -375,7 +375,7 @@ Text* Text::GetLine( int i )
 	return NULL;
 }
 
-int Text::GetLineFromChar( int i )
+size_t Text::GetLineFromChar(size_t i )
 {
 	TextLines::iterator it = m_Lines.begin();
 	TextLines::iterator itEnd = m_Lines.end();
@@ -397,29 +397,29 @@ int Text::GetLineFromChar( int i )
 	return iLine;
 }
 
-int Text::GetStartCharFromLine( int i )
+size_t Text::GetStartCharFromLine(size_t i )
 {
 	TextLines::iterator it = m_Lines.begin();
 	TextLines::iterator itEnd = m_Lines.end();
-	int iChars = 0;
+	size_t iChars = 0;
 
 	while ( it != itEnd )
 	{
 		Text* pLine = *it;
 		++it;
 
-		if ( i == 0 ) { return Gwen::Clamp( iChars, 0, Length() ); }
+		if ( i == 0 ) { return Gwen::Clamp( iChars, (size_t)0, Length() ); }
 
 		iChars += pLine->Length();
 		i--;
 	}
 
-	return Gwen::Clamp( iChars, 0, Length() );
+	return Gwen::Clamp( iChars, (size_t)0, Length() );
 }
 
-int Text::GetEndCharFromLine( int i )
+size_t Text::GetEndCharFromLine( size_t i )
 {
-	int iStart = GetStartCharFromLine( i );
+	size_t iStart = GetStartCharFromLine( i );
 	Text* iLine = GetLine( i );
 
 	if ( iLine )
@@ -427,16 +427,16 @@ int Text::GetEndCharFromLine( int i )
 		iStart += iLine->Length();
 	}
 
-	return Gwen::Clamp( iStart, 0, Length() );
+	return Gwen::Clamp( iStart, (size_t)0, Length() );
 }
 
-int Text::GetCharPosOnLine( int i )
+size_t Text::GetCharPosOnLine(size_t i )
 {
 	int iLine = GetLineFromChar( i );
 	Text* line = GetLine( iLine );
 
 	if ( !line ) { return 0; }
 
-	int iStart = GetStartCharFromLine( iLine );
+	size_t iStart = GetStartCharFromLine( iLine );
 	return i - iStart;
 }

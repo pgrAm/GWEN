@@ -35,7 +35,7 @@ namespace Gwen
 
 				const TextObject & GetText() const { return m_String; }
 
-				Gwen::Rect GetCharacterPosition(unsigned int iChar);
+				Gwen::Rect GetCharacterPosition(size_t iChar);
 				size_t GetClosestCharacter(Gwen::Point p);
 
 				/// return the encapsulating box of the given line
